@@ -16,24 +16,21 @@ Download Miniconda, for detailed information, check the Miniconda download page:
 
 ```bash
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
 - MacOS Intel
 
 ```bash
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 - MacOS Apple Silicon
 
 ```bash
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o Miniconda3-latest-MacOSX-arm64.sh
-```
-
-Run the installer
-
-```bash
-bash Miniconda3-latest-<Linux|MacOSX>-<x86_64|arm64>.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 > You may need to restart your terminal or `source ~/.bashrc` or `~/.zshrc` to enable the conda command. Use `conda -V` to test if it is installed successfully.
